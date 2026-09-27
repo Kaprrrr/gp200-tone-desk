@@ -1,0 +1,140 @@
+[
+  {
+    "module": "DST",
+    "enabled": true,
+    "model": "Super OD",
+    "snaptoneSlot": null,
+    "params": [
+      {
+        "name": "Gain",
+        "value": 30
+      },
+      {
+        "name": "Tone",
+        "value": 45
+      },
+      {
+        "name": "Volume",
+        "value": 70
+      }
+    ],
+    "note": "SD-1-style push in the spirit of Timmons' Keeley-modded SD-1; low gain, high level to tighten and add sustain"
+  },
+  {
+    "module": "AMP",
+    "enabled": true,
+    "model": "L-Star OD",
+    "snaptoneSlot": null,
+    "params": [
+      {
+        "name": "Gain",
+        "value": 45
+      },
+      {
+        "name": "Presence",
+        "value": 45
+      },
+      {
+        "name": "Volume",
+        "value": 55
+      },
+      {
+        "name": "Bass",
+        "value": 50
+      },
+      {
+        "name": "Middle",
+        "value": 60
+      },
+      {
+        "name": "Treble",
+        "value": 48
+      }
+    ],
+    "note": "Mesa Lone Star drive channel for a warm, singing lead with forward mids"
+  },
+  {
+    "module": "NR",
+    "enabled": true,
+    "model": "Gate 1",
+    "snaptoneSlot": null,
+    "params": [
+      {
+        "name": "Threshold",
+        "value": 15
+      }
+    ],
+    "note": "Very light gate so swells and decays stay natural"
+  },
+  {
+    "module": "CAB",
+    "enabled": true,
+    "model": "SUP Star",
+    "snaptoneSlot": null,
+    "params": [
+      {
+        "name": "Low Cut",
+        "value": 80
+      },
+      {
+        "name": "High Cut",
+        "value": 7500
+      }
+    ],
+    "note": "Lonestar 2x12 to match the amp; high cut keeps the lead smooth"
+  },
+  {
+    "module": "DLY",
+    "enabled": true,
+    "model": "Dual Echo",
+    "snaptoneSlot": null,
+    "params": [
+      {
+        "name": "Mix A",
+        "value": 22
+      },
+      {
+        "name": "Time A",
+        "value": 643
+      },
+      {
+        "name": "Feedback A",
+        "value": 30
+      },
+      {
+        "name": "Mix B",
+        "value": 18
+      },
+      {
+        "name": "Time B",
+        "value": 857
+      },
+      {
+        "name": "Feedback B",
+        "value": 25
+      }
+    ],
+    "note": "Halo-style dual delay: dotted eighth plus quarter at about 70 BPM, low mixes for Timmons' spacious bloom"
+  },
+  {
+    "module": "RVB",
+    "enabled": true,
+    "model": "Hall",
+    "snaptoneSlot": null,
+    "params": [
+      {
+        "name": "Mix",
+        "value": 22
+      },
+      {
+        "name": "Pre Delay",
+        "value": 25
+      },
+      {
+        "name": "Decay",
+        "value": 50
+      }
+    ],
+    "note": "Gentle hall for depth without clouding the melody"
+  }
+]

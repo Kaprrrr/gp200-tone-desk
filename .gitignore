@@ -1,0 +1,18 @@
+node_modules/
+dist/
+data/
+*.log
+release/
+test-results/
+playwright-report/
+
+# Keep credentials, local session records, and machine diagnostics private.
+.env
+.env.*
+!.env.example
+CLAUDE.md
+TRANSFER_DIAGNOSIS.md
+desktop_probe.png
+scripts/update-tone-desk-icon.ps1
+__pycache__/
+*.py[cod]
